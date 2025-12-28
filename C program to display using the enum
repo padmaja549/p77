@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	enum month{Jan,Feb,Mar,Apr,May,June,July,Aug,Sep,Oct,Nov,Dec};
+	clrscr();
+	printf("Jan=%dn",Jan);
+	printf("Feb=%dn",Feb);
+	printf("Mar=%dn",Mar);
+	printf("Apr=%dn",Apr);
+	printf("May=%dn",May);
+	printf("June=%dn",June);
+	printf("July=%dn",July);
+	printf("Aug=%dn",Aug);
+	printf("Sep=%dn",Sep);
+	printf("Oct=%dn",Oct);
+	printf("Nov=%dn",Nov);
+	printf("Dec=%dn",Dec);
+	getch();
+}
